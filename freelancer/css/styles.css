@@ -1,0 +1,21 @@
+:root {
+    --white: #fff;
+    --dark: #212121;
+    --primary: #ffc107;
+    --secondary: #0097a7;
+    --gray: #757575;
+}
+
+html {
+    font-size: 62.5%; /* 1rem = 10px */
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: "Nunito", sans-serif;
+}
+
+a {
+    color: var(--dark);
+    text-decoration: none;
+}
