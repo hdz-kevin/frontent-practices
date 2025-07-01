@@ -19,3 +19,41 @@ a {
     color: var(--dark);
     text-decoration: none;
 }
+
+.container {
+    width: 96%;
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 3.8rem;
+    text-align: center;
+    font-family: "Nunito", sans-serif;
+}
+
+.title span {
+    font-size: 2rem;
+}
+
+/* Navbar */
+.navbar-bg {
+    background-color: var(--secondary);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar a {
+    padding: 1.5rem 2.5rem;
+    color: var(--white);
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.navbar a:hover {
+    background-color: var(--primary);
+    color: var(--dark);
+}
