@@ -33,7 +33,7 @@ p {
 a { text-decoration: none; }
 
 img {
-    width: 100%;
+    max-width: 100%;
 }
 
 .container {
@@ -51,3 +51,32 @@ h1, h2, h3 {
 h1 { font-size: 4rem; }
 h2 { font-size: 3.2rem; }
 h3 { font-size: 2.4rem; }
+
+/* Header */
+.header {
+    padding: 3rem 0;
+    text-align: center;
+}
+
+.navbar {
+    background-color: var(--primary-dark);
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 1.2rem;
+}
+
+.navbar__link {
+    font-family: var(--primary-font);
+    color: var(--white);
+    font-size: 2.5rem;
+    transition: color 0.3s ease;
+}
+
+.navbar__link:hover {
+    color: var(--secondary);
+}
+
+.navbar__link--active {
+    color: var(--secondary);
+}
