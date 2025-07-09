@@ -54,29 +54,31 @@ h3 { font-size: 2.4rem; }
 
 /* Header */
 .header {
-    padding: 3rem 0;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.header__logo {
+    margin: 3rem 0;
+    width: 22rem;
 }
 
 .navbar {
     background-color: var(--primary-dark);
+    padding: 1.2rem;
     display: flex;
     justify-content: center;
     gap: 2rem;
-    padding: 1.2rem;
 }
 
 .navbar__link {
     font-family: var(--primary-font);
     color: var(--white);
-    font-size: 2.5rem;
+    font-size: 2.6rem;
     transition: color 0.3s ease;
 }
 
+.navbar__link--active,
 .navbar__link:hover {
-    color: var(--secondary);
-}
-
-.navbar__link--active {
     color: var(--secondary);
 }
